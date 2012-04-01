@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3277D36B1528F5B7006CAA7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36A1528F5B7006CAA7A /* UIKit.framework */; };
+		3277D36D1528F5B7006CAA7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36C1528F5B7006CAA7A /* Foundation.framework */; };
+		3277D36F1528F5B7006CAA7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36E1528F5B7006CAA7A /* CoreGraphics.framework */; };
+		3277D3751528F5B7006CAA7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3277D3731528F5B7006CAA7A /* InfoPlist.strings */; };
+		3277D3771528F5B7006CAA7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3761528F5B7006CAA7A /* main.m */; };
+		3277D37B1528F5B7006CAA7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D37A1528F5B7006CAA7A /* AppDelegate.m */; };
+		3277D37E1528F5B7006CAA7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3277D37C1528F5B7006CAA7A /* MainStoryboard.storyboard */; };
+		3277D3811528F5B7006CAA7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3801528F5B7006CAA7A /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3277D3661528F5B7006CAA7A /* KissXMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KissXMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3277D36A1528F5B7006CAA7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3277D36C1528F5B7006CAA7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3277D36E1528F5B7006CAA7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3277D3721528F5B7006CAA7A /* KissXMLTest-Info.plist */ = {isa = PBXFileReference; path = "KissXMLTest-Info.plist"; sourceTree = "<group>"; };
+		3277D3741528F5B7006CAA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3277D3761528F5B7006CAA7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3277D3781528F5B7006CAA7A /* KissXMLTest-Prefix.pch */ = {isa = PBXFileReference; path = "KissXMLTest-Prefix.pch"; sourceTree = "<group>"; };
+		3277D3791528F5B7006CAA7A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3277D37A1528F5B7006CAA7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3277D37D1528F5B7006CAA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3277D37F1528F5B7006CAA7A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3277D3801528F5B7006CAA7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3277D3631528F5B7006CAA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3277D36B1528F5B7006CAA7A /* UIKit.framework in Frameworks */,
+				3277D36D1528F5B7006CAA7A /* Foundation.framework in Frameworks */,
+				3277D36F1528F5B7006CAA7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3277D35B1528F5B7006CAA7A = {
+			isa = PBXGroup;
+			children = (
+				3277D3701528F5B7006CAA7A /* KissXMLTest */,
+				3277D3691528F5B7006CAA7A /* Frameworks */,
+				3277D3671528F5B7006CAA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3277D3671528F5B7006CAA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3661528F5B7006CAA7A /* KissXMLTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3277D3691528F5B7006CAA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3277D36A1528F5B7006CAA7A /* UIKit.framework */,
+				3277D36C1528F5B7006CAA7A /* Foundation.framework */,
+				3277D36E1528F5B7006CAA7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3277D3701528F5B7006CAA7A /* KissXMLTest */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3791528F5B7006CAA7A /* AppDelegate.h */,
+				3277D37A1528F5B7006CAA7A /* AppDelegate.m */,
+				3277D37C1528F5B7006CAA7A /* MainStoryboard.storyboard */,
+				3277D37F1528F5B7006CAA7A /* ViewController.h */,
+				3277D3801528F5B7006CAA7A /* ViewController.m */,
+				3277D3711528F5B7006CAA7A /* Supporting Files */,
+			);
+			path = KissXMLTest;
+			sourceTree = "<group>";
+		};
+		3277D3711528F5B7006CAA7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3721528F5B7006CAA7A /* KissXMLTest-Info.plist */,
+				3277D3731528F5B7006CAA7A /* InfoPlist.strings */,
+				3277D3761528F5B7006CAA7A /* main.m */,
+				3277D3781528F5B7006CAA7A /* KissXMLTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3277D3651528F5B7006CAA7A /* KissXMLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3277D3841528F5B7006CAA7A /* Build configuration list for PBXNativeTarget "KissXMLTest" */;
+			buildPhases = (
+				3277D3621528F5B7006CAA7A /* Sources */,
+				3277D3631528F5B7006CAA7A /* Frameworks */,
+				3277D3641528F5B7006CAA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissXMLTest;
+			productName = KissXMLTest;
+			productReference = 3277D3661528F5B7006CAA7A /* KissXMLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3277D35D1528F5B7006CAA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3277D3601528F5B7006CAA7A /* Build configuration list for PBXProject "KissXMLTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3277D35B1528F5B7006CAA7A;
+			productRefGroup = 3277D3671528F5B7006CAA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3277D3651528F5B7006CAA7A /* KissXMLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3277D3641528F5B7006CAA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3277D3751528F5B7006CAA7A /* InfoPlist.strings in Resources */,
+				3277D37E1528F5B7006CAA7A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3277D3621528F5B7006CAA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3277D3771528F5B7006CAA7A /* main.m in Sources */,
+				3277D37B1528F5B7006CAA7A /* AppDelegate.m in Sources */,
+				3277D3811528F5B7006CAA7A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3277D3731528F5B7006CAA7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3277D3741528F5B7006CAA7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3277D37C1528F5B7006CAA7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3277D37D1528F5B7006CAA7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3277D3821528F5B7006CAA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3277D3831528F5B7006CAA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3277D3851528F5B7006CAA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KissXMLTest/KissXMLTest-Prefix.pch";
+				INFOPLIST_FILE = "KissXMLTest/KissXMLTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3277D3861528F5B7006CAA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KissXMLTest/KissXMLTest-Prefix.pch";
+				INFOPLIST_FILE = "KissXMLTest/KissXMLTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3277D3601528F5B7006CAA7A /* Build configuration list for PBXProject "KissXMLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3277D3821528F5B7006CAA7A /* Debug */,
+				3277D3831528F5B7006CAA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3277D3841528F5B7006CAA7A /* Build configuration list for PBXNativeTarget "KissXMLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3277D3851528F5B7006CAA7A /* Debug */,
+				3277D3861528F5B7006CAA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3277D35D1528F5B7006CAA7A /* Project object */;
+}
