@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32427C1E154C388100DF60F4 /* RSSReaderArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32427C1D154C388100DF60F4 /* RSSReaderArticleCell.m */; };
 		3277D36B1528F5B7006CAA7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36A1528F5B7006CAA7A /* UIKit.framework */; };
 		3277D36D1528F5B7006CAA7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36C1528F5B7006CAA7A /* Foundation.framework */; };
 		3277D36F1528F5B7006CAA7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3277D36E1528F5B7006CAA7A /* CoreGraphics.framework */; };
@@ -14,23 +15,51 @@
 		3277D3771528F5B7006CAA7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3761528F5B7006CAA7A /* main.m */; };
 		3277D37B1528F5B7006CAA7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D37A1528F5B7006CAA7A /* AppDelegate.m */; };
 		3277D37E1528F5B7006CAA7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3277D37C1528F5B7006CAA7A /* MainStoryboard.storyboard */; };
-		3277D3811528F5B7006CAA7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3801528F5B7006CAA7A /* ViewController.m */; };
+		3277D3971528F5D2006CAA7A /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D38A1528F5D2006CAA7A /* DDXMLElementAdditions.m */; };
+		3277D3981528F5D2006CAA7A /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D38D1528F5D2006CAA7A /* NSString+DDXML.m */; };
+		3277D3991528F5D2006CAA7A /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3901528F5D2006CAA7A /* DDXMLDocument.m */; };
+		3277D39A1528F5D2006CAA7A /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3921528F5D2006CAA7A /* DDXMLElement.m */; };
+		3277D39B1528F5D2006CAA7A /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3941528F5D2006CAA7A /* DDXMLNode.m */; };
+		3277D3AB1529290B006CAA7A /* ArticleTitleTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3AA1529290B006CAA7A /* ArticleTitleTableVC.m */; };
+		3277D3B8152942EF006CAA7A /* DetailViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3B7152942EF006CAA7A /* DetailViewVC.m */; };
+		3277D3BF15294F33006CAA7A /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3277D3BE15294F33006CAA7A /* Singleton.m */; };
+		327CE181152A6F3400DEE5CE /* FlattenHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 327CE180152A6F3400DEE5CE /* FlattenHTML.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32427C1C154C388100DF60F4 /* RSSReaderArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSReaderArticleCell.h; sourceTree = "<group>"; };
+		32427C1D154C388100DF60F4 /* RSSReaderArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSReaderArticleCell.m; sourceTree = "<group>"; };
 		3277D3661528F5B7006CAA7A /* KissXMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KissXMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3277D36A1528F5B7006CAA7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3277D36C1528F5B7006CAA7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3277D36E1528F5B7006CAA7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3277D3721528F5B7006CAA7A /* KissXMLTest-Info.plist */ = {isa = PBXFileReference; path = "KissXMLTest-Info.plist"; sourceTree = "<group>"; };
+		3277D3721528F5B7006CAA7A /* KissXMLTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KissXMLTest-Info.plist"; sourceTree = "<group>"; };
 		3277D3741528F5B7006CAA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3277D3761528F5B7006CAA7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3277D3781528F5B7006CAA7A /* KissXMLTest-Prefix.pch */ = {isa = PBXFileReference; path = "KissXMLTest-Prefix.pch"; sourceTree = "<group>"; };
-		3277D3791528F5B7006CAA7A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3277D3781528F5B7006CAA7A /* KissXMLTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KissXMLTest-Prefix.pch"; sourceTree = "<group>"; };
+		3277D3791528F5B7006CAA7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3277D37A1528F5B7006CAA7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3277D37D1528F5B7006CAA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3277D37F1528F5B7006CAA7A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		3277D3801528F5B7006CAA7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3277D3891528F5D2006CAA7A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		3277D38A1528F5D2006CAA7A /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		3277D38C1528F5D2006CAA7A /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		3277D38D1528F5D2006CAA7A /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		3277D38E1528F5D2006CAA7A /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		3277D38F1528F5D2006CAA7A /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		3277D3901528F5D2006CAA7A /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		3277D3911528F5D2006CAA7A /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		3277D3921528F5D2006CAA7A /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		3277D3931528F5D2006CAA7A /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		3277D3941528F5D2006CAA7A /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		3277D3961528F5D2006CAA7A /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		3277D3A91529290B006CAA7A /* ArticleTitleTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTitleTableVC.h; sourceTree = "<group>"; };
+		3277D3AA1529290B006CAA7A /* ArticleTitleTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTitleTableVC.m; sourceTree = "<group>"; };
+		3277D3B6152942EF006CAA7A /* DetailViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewVC.h; sourceTree = "<group>"; };
+		3277D3B7152942EF006CAA7A /* DetailViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewVC.m; sourceTree = "<group>"; };
+		3277D3BD15294F33006CAA7A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		3277D3BE15294F33006CAA7A /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		327CE17F152A6F3400DEE5CE /* FlattenHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlattenHTML.h; sourceTree = "<group>"; };
+		327CE180152A6F3400DEE5CE /* FlattenHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlattenHTML.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +79,7 @@
 		3277D35B1528F5B7006CAA7A = {
 			isa = PBXGroup;
 			children = (
+				3277D3871528F5D2006CAA7A /* KissXML */,
 				3277D3701528F5B7006CAA7A /* KissXMLTest */,
 				3277D3691528F5B7006CAA7A /* Frameworks */,
 				3277D3671528F5B7006CAA7A /* Products */,
@@ -80,8 +110,16 @@
 				3277D3791528F5B7006CAA7A /* AppDelegate.h */,
 				3277D37A1528F5B7006CAA7A /* AppDelegate.m */,
 				3277D37C1528F5B7006CAA7A /* MainStoryboard.storyboard */,
-				3277D37F1528F5B7006CAA7A /* ViewController.h */,
-				3277D3801528F5B7006CAA7A /* ViewController.m */,
+				3277D3A91529290B006CAA7A /* ArticleTitleTableVC.h */,
+				3277D3AA1529290B006CAA7A /* ArticleTitleTableVC.m */,
+				32427C1C154C388100DF60F4 /* RSSReaderArticleCell.h */,
+				32427C1D154C388100DF60F4 /* RSSReaderArticleCell.m */,
+				3277D3B6152942EF006CAA7A /* DetailViewVC.h */,
+				3277D3B7152942EF006CAA7A /* DetailViewVC.m */,
+				3277D3BD15294F33006CAA7A /* Singleton.h */,
+				3277D3BE15294F33006CAA7A /* Singleton.m */,
+				327CE17F152A6F3400DEE5CE /* FlattenHTML.h */,
+				327CE180152A6F3400DEE5CE /* FlattenHTML.m */,
 				3277D3711528F5B7006CAA7A /* Supporting Files */,
 			);
 			path = KissXMLTest;
@@ -96,6 +134,49 @@
 				3277D3781528F5B7006CAA7A /* KissXMLTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3277D3871528F5D2006CAA7A /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3881528F5D2006CAA7A /* Additions */,
+				3277D38B1528F5D2006CAA7A /* Categories */,
+				3277D38E1528F5D2006CAA7A /* DDXML.h */,
+				3277D38F1528F5D2006CAA7A /* DDXMLDocument.h */,
+				3277D3901528F5D2006CAA7A /* DDXMLDocument.m */,
+				3277D3911528F5D2006CAA7A /* DDXMLElement.h */,
+				3277D3921528F5D2006CAA7A /* DDXMLElement.m */,
+				3277D3931528F5D2006CAA7A /* DDXMLNode.h */,
+				3277D3941528F5D2006CAA7A /* DDXMLNode.m */,
+				3277D3951528F5D2006CAA7A /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		3277D3881528F5D2006CAA7A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3891528F5D2006CAA7A /* DDXMLElementAdditions.h */,
+				3277D38A1528F5D2006CAA7A /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		3277D38B1528F5D2006CAA7A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3277D38C1528F5D2006CAA7A /* NSString+DDXML.h */,
+				3277D38D1528F5D2006CAA7A /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3277D3951528F5D2006CAA7A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				3277D3961528F5D2006CAA7A /* DDXMLPrivate.h */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +243,16 @@
 			files = (
 				3277D3771528F5B7006CAA7A /* main.m in Sources */,
 				3277D37B1528F5B7006CAA7A /* AppDelegate.m in Sources */,
-				3277D3811528F5B7006CAA7A /* ViewController.m in Sources */,
+				3277D3971528F5D2006CAA7A /* DDXMLElementAdditions.m in Sources */,
+				3277D3981528F5D2006CAA7A /* NSString+DDXML.m in Sources */,
+				3277D3991528F5D2006CAA7A /* DDXMLDocument.m in Sources */,
+				3277D39A1528F5D2006CAA7A /* DDXMLElement.m in Sources */,
+				3277D39B1528F5D2006CAA7A /* DDXMLNode.m in Sources */,
+				3277D3AB1529290B006CAA7A /* ArticleTitleTableVC.m in Sources */,
+				3277D3B8152942EF006CAA7A /* DetailViewVC.m in Sources */,
+				3277D3BF15294F33006CAA7A /* Singleton.m in Sources */,
+				327CE181152A6F3400DEE5CE /* FlattenHTML.m in Sources */,
+				32427C1E154C388100DF60F4 /* RSSReaderArticleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +298,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,8 +318,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -239,6 +333,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KissXMLTest/KissXMLTest-Prefix.pch";
 				INFOPLIST_FILE = "KissXMLTest/KissXMLTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +345,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KissXMLTest/KissXMLTest-Prefix.pch";
 				INFOPLIST_FILE = "KissXMLTest/KissXMLTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +370,7 @@
 				3277D3861528F5B7006CAA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
